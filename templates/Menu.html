@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- liens css bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="../restaurant-css-framework/assets/css/style.css" >
+<link rel="stylesheet" href="../assets/css/style.css" >
 <!-- liens java bootstrap-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
         <div class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4">
-                <h5 class="text-white h4"><ul class="navbar-nav">
+                <h5 class="text-white h4"><ul class="navbar-nav ">
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
@@ -48,32 +48,126 @@
           </div>
     </header>
     <main>
-        <section class="col-12">
-            <div>
-                <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Cras justo odio
-                          <span class="badge badge-primary badge-pill">14</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Dapibus ac facilisis in
-                          <span class="badge badge-primary badge-pill">2</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                          Morbi leo risus
-                      <span class="badge badge-primary badge-pill">1</span>
-                    </li>
-                </ul>
+      <div class="col-12 ">
+        <article class="col-6 offset-3 " >
+          <p>Our menu systeme is simple! <br /> Build it to the bar, select the insect(s) you want and add accompaniment <br />( how many you want ! <em>amazing no ?</em>) </p>
+          <p>For the rest ( drink, dessert) select them and let's go, a waiter gonna comes at your table !<br /> <em>enjoy, be proud u save the world and somes cows</em></p>
+        </article>
+
+
+      </div>
+      <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  insect
+                </button>
+              </h2>
             </div>
-        </section>
-        <footer>
-                <div class="container">
-                    <a href=""><img src="../assets/img/icon and logo and more/facebook.png"  width="35px" alt="Facebook"></a>
-                    <a href=""><img src="../assets/img/icon and logo and more/instagram.png" width="35px" alt="Instagram"></a>
-                    <a href=""><img src="../assets/img/icon and logo and more/twitter.png" width="35px" alt="Twitter"></a>
-                    <p class="copyright">Natural Supply © 2019</p>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                  <ul class="list-group">
+                      <button type="button"
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Beetles with sesame seed and onion fry
+                          <span class="badge badge-pill badge-success">New</span>
+                        </li>
+                      </button>
+                      <button type="button"
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          spider papikra made like Amazonian tradition
+                          <span class="badge badge-pill badge-danger">spicy</em></span>
+                        </li>
+                      </button>
+                      <button type="button"
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          mix of bee and ant, cook with red chilli and vegetables bio<em>(from Cambodia)</em> 
+                          <span class="badge badge-pill badge-danger">spicy !!!</span>
+                        </li>
+                      </button>
+                    </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  You like adventures ? 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  <ul class="list-group">
+                      <button type="button"
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Beetles and spider with 3 (random) sort of red chili
+                            <span class="badge badge-pill badge-secondary">classic</span>
+                          </li>
+                      </button>
+                        <button type="button"
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          bee and worm with Indian curry 
+                          <span class="badge badge-pill badge-danger">spicy</em></span>
+                        </li>
+                      </button>
+                      <button type="button"
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Mystery box ! <em>be proud, you've the courage to try it</em> 
+                          <span class="badge badge-pill badge-dark">scary ? </span>
+                        </li>
+                      </button>
+                    </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  boisson
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <ul class="list-group">
+                        <button type="button"
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Beetles and spider with 3 (random) sort of red chili
+                                <span class="badge badge-pill badge-secondary">classic</span>
+                              </li>
+                        </button>
+                        <button type="button"
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              bee and worm with Indian curry 
+                              <span class="badge badge-pill badge-danger">spicy</em></span>
+                            </li>
+                        </button>
+                        <button type="button"
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Mystery box ! <em>be proud, you've the courage to try it</em> 
+                              <span class="badge badge-pill badge-dark">scary ? </span>
+                            </li>
+                        </button>
+                      </ul>
+                  </button>
                 </div>
-        </footer>
+            </div>
+          </div>              
+          </section>
+    <footer class="footer fixed-bottom">
+            <div class="container">
+                <a href=""><img src="../assets/img/icon and logo and more/facebook.png"  width="35px" alt="Facebook"></a>
+                 <a href=""><img src="../assets/img/icon and logo and more/instagram.png" width="35px" alt="Instagram"></a>
+                 <a href=""><img src="../assets/img/icon and logo and more/twitter.png" width="35px" alt="Twitter"></a>
+                   <p class="copyright">Natural Supply © 2019</p>
+            </div>
+    </footer>
     </main>
 </body>
 </html>
