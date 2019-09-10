@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- liens css bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="../assets/css/style.css" >
+<link rel="stylesheet" href="/assets/css/style.css" >
 <!-- liens java bootstrap-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -14,47 +14,50 @@
     <meta name="Accueil description" content="restaurant site, oriented eco-responsible, insect and veg.food are served"> 
     <title>Natural Supply Accueil</title>
 </head>
-<body>
-    <header>
+<body class="bg-light">
+    <header> 
         <div class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4">
                 <h5 class="text-white h4"><ul class="navbar-nav ">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pictures</a>
+                        <a class="nav-link" href="Menu.html">Menu</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pagination-gallery/Pagination1.html">Pictures</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Adress</a>
+                      <a class="nav-link" href="adress.html">Adress</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul></h5>
                 <span class="text-muted"><em>A insect can be beautifull and yummy</em></span>
               </div>
             </div>
             <!--button logo-->
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarNav">
+            <nav class="navbar navbar-success bg-success">
+                <div class="collapse navbar-collapse " id="navbarNav">
                     
                   </div>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img border="0" alt="ingstick" src="../assets/img/icon and logo and more/ingstick.png" width="50" height="50"></img>
+                <img border="0" alt="ingstick" src="/assets/img/icon and logo and more/ingstick.png" width="50" height="50"></img>
               </button>
             </nav>
           </div>
     </header>
     <main>
-      <div class="col-12 ">
-        <article class="col-6 offset-3 " >
-          <p>Our menu systeme is simple! <br /> Build it to the bar, select the insect(s) you want and add accompaniment <br />( how many you want ! <em>amazing no ?</em>) </p>
-          <p>For the rest ( drink, dessert) select them and let's go, a waiter gonna comes at your table !<br /> <em>enjoy, be proud u save the world and somes cows</em></p>
-        </article>
-
-
+      <div class="container-fluid">
+        <div class="col-12 ">
+          <article class="col-6 offset-3  " >
+            <p>Our menu systeme is simple! <br /> Build it to the bar, select the insect(s) you want and add accompaniment <br />( how many you want ! <em>amazing no ?</em>) </p>
+            <p>For the rest ( drink, dessert) select them and let's go, a waiter gonna comes at your table !<br /> <em>enjoy, be proud u save the world and somes cows</em></p>
+          </article>
+        </div>
       </div>
       <div class="accordion" id="accordionExample">
           <div class="card">
@@ -160,14 +163,18 @@
             </div>
           </div>              
           </section>
-    <footer class="footer fixed-bottom">
-            <div class="container">
-                <a href=""><img src="../assets/img/icon and logo and more/facebook.png"  width="35px" alt="Facebook"></a>
-                 <a href=""><img src="../assets/img/icon and logo and more/instagram.png" width="35px" alt="Instagram"></a>
-                 <a href=""><img src="../assets/img/icon and logo and more/twitter.png" width="35px" alt="Twitter"></a>
-                   <p class="copyright">Natural Supply © 2019</p>
-            </div>
-    </footer>
-    </main>
-</body>
-</html>
+          <footer class="footer">
+              <div class="container-fluid ">
+                <div class="row">
+                  <div class="clo-12">
+                    <a href=""><img src="/assets/img/icon and logo and more/facebook.png"  width="35px" alt="Facebook"></a>
+                    <a href=""><img src="/assets/img/icon and logo and more/instagram.png" width="35px" alt="Instagram"></a>
+                    <a href=""><img src="/assets/img/icon and logo and more/twitter.png" width="35px" alt="Twitter"></a>
+                  </div>
+                  <div>
+                    <p class="copyright">Natural Supply © 2019</p>
+                  </div>
+              </div>
+            </footer>
+      </body>
+      </html>
