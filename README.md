@@ -1,7 +1,5 @@
 # Natural Supply
 
-![logo](/restaurant-css-framework/assets/img/icon and logo and more/ingstick.png)
-
 
 ### Natural Supply is a website for a restaurant oriented écology, recycling and respect of the environement.
 
