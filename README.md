@@ -29,4 +29,4 @@ Somes update incoming for sure !
 
 
 ##### Thank you for have take the time to read me.
-Englebert Jeremy Johnson.  : heart :
+Englebert Jeremy Johnson. :heart:
