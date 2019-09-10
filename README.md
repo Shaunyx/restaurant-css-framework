@@ -26,3 +26,7 @@ Somes update incoming for sure !
 
 
 ![gif](https://media.giphy.com/media/4MwP0n2iPbkcM/giphy.gif)
+
+
+##### Thank you for have take the time to read me.
+Englebert Jeremy Johnson.  : heart :
