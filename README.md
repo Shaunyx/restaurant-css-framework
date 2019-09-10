@@ -10,6 +10,15 @@
 
 bootstrap *principaly*
 
+### All the pictures comes principaly from these website *(free Of course)*
+
+[Dribble](https://dribbble.com/)
+
+[Pixabay](https://pixabay.com/fr/)
+
+[Picular](https://picular.co/insect)
+
+
 ### notice:
 
 This is the first draf for introduce to me bootstrap and his concept.
