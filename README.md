@@ -1,16 +1,16 @@
 # Natural Supply
 
-![logo](/restaurant-css-bootstrap/restaurant-css-framework/assets/img/icon and logo and more)
+![logo](/restaurant-css-framework/assets/img/icon and logo and more)
 
 
 ### Natural Supply is a website for a restaurant oriented écology, recycling and respect of the environement.
 
-[Voici le lien](...)
+[Link here](...)
 
 
 ### build with:
-	
-	bootstrap principaly
+
+bootstrap *principaly*
 
 ### notice:
 
